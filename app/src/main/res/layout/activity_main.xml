@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+        />
+    <CheckBox
+        android:id="@+id/um"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-70px"
+        android:text="cafe "
+        android:textSize="25dp" />
+
+    <CheckBox
+        android:id="@+id/dois"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-110px"
+        android:text="cafe com leite "
+        android:textSize="25dp" />
+
+    <CheckBox
+        android:id="@+id/tres"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-120px"
+        android:text="cappuccino"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/quantidade"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-50px"
+        android:textColor="#000000"
+        android:text="quantidade:"
+        android:textSize="30dp" />
+
+    <CheckBox
+        android:id="@+id/qd1"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-350px"
+        android:layout_marginLeft="320px"
+        android:text="1"
+        android:textSize="25dp" />
+
+    <CheckBox
+        android:id="@+id/qd2"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-400px"
+        android:layout_marginLeft="410px"
+        android:text="2"
+        android:textSize="25dp" />
+
+    <CheckBox
+        android:id="@+id/qd3"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-400px"
+        android:layout_marginLeft="500px"
+        android:text="3"
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/preco"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-50px"
+        android:textColor="#000000"
+        android:text="cafe e cafe c/ leite: R$:4,00"
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/preco2"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-50px"
+        android:textColor="#000000"
+        android:text="cappuccino: R$:7,00"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/cafe_mais"
+        android:onClick="cafe_mais"
+        android:layout_width="65sp"
+        android:layout_height="40sp"
+        android:layout_below="@id/espaco2"
+        android:layout_marginLeft="-284dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/cafe"
+        android:text="+"
+        android:textColor="#000000"
+        android:textSize="15sp"></Button>
+
+</LinearLayout>
+
